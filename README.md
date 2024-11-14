@@ -11,11 +11,11 @@ Tempo de retenção: Permantente
 Rotina de limpeza: Não se aplica
 |Atributo   |Tipo do Atributo   |Cardinalidade Minima|Cardinalidade Maxima | 
 |-----------|-------------------|--------------------|---------------------|
-|ID(number ) 				| simples, determinante | 1 | 1 |
+|ID(number 10) 				| simples, determinante | 1 | 1 |
 |VALOR_PH(FLOAT) 			| simples				| 1 | 1 |
 |VALOR_POTASSIO(number 10) 				| simples  			 	| 1 | 1 |
 |VALOR_FOSFORO(number 10) 			| simples  			 	| 1 | 1 |
-|BOMBA_LIGADA(NUMBER10) |simples|1|1|
+|BOMBA_LIGADA(number 10) |simples|1|1|
 
 ### Como usar
 Ir no site [wokwi](https://wokwi.com/) e selecionar a placa esp32, o código fonte está no arquivo sketch.ino e a biblioteca utilizada está no arquivo libraries.txt que estão na pasta src, o diagrama do projeto está na pasta docs, lá está um arquivo json que pode ser utilizado no site [wokwi](https://wokwi.com/) e um aquivo .png com a foto do diagrama.
